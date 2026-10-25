@@ -1,0 +1,58 @@
+email: chaltahaiparts@gmail.com
+password: abrakadabra@
+
+
+Amazon Account
+username: chaltahaiparts@gmail.com
+password: Abrakadabra9830@
+
+
+aws s3 sync build/ s3://chalta-hai-parts
+https://d29dc0ggfeo10m.cloudfront.net
+
+
+
+=====================================================================
+
+MVC
+Model - kinds of defined the database
+View - defines the routes
+controller - defines the functionalities
+
+Setting up the project
+
+
+
+1> Installing and setup for client
+Created the folder 'chaltahaiparts' in D Drive
+
+Run the commands:
+D:\chaltahaiparts-->    npm init -y   (to create package.json)
+D:\chaltahaiparts-->    npm i express (to install express JS)
+D:\chaltahaiparts-->    npm i mongodb (to install mongo Db)
+D:\chaltahaiparts-->    npm i mongoose (to install mongoose)
+D:\chaltahaiparts-->    npm i nodemon  (to take any changes automatically)
+
+We will use vite to create the client side code for our project
+D:\chaltahaiparts-->    npm create vite@latest client (client is the name of the folder where front end code will reside)
+D:\chaltahaiparts\client-->   npm install tailwindcss @tailwindcss/vite     (installing tailwind)
+D:\chaltahaiparts\client-->   npx flowbite-react@latest init     (installing flowbite)
+D:\chaltahaiparts\client-->   npm i axios     (installing axos to connect api to web actions)
+
+
+The below command will start the project
+D:\chaltahaiparts\client-->     npm run dev  [this starts the client server]
+
+
+2> Installing and setup for server
+D:\ChaltaHaiParts\server>        npm i express    (installing express JS)
+D:\ChaltaHaiParts\server>        npm i mongoose    (installing mongoose)
+D:\ChaltaHaiParts\server>        npm i dotenv    (installing env package)
+D:\ChaltaHaiParts\server>        npm i cors    (installing cors to connect to front end and get data)
+
+
+
+
+to run the server and client both
+From d:\ChaltaHaiParts, run npm start for a normal run or 
+npm run dev to auto-restart on changes with nodemon.
